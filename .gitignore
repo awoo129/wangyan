@@ -1,0 +1,14 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files (stored on Zenodo)
+*.rds
+*.RData
+*.Rda

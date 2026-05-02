@@ -1,0 +1,7 @@
+Test,Statistic,P_value,N_per_group,Direction
+Spearman trend (HDAC9 donor-level),-0.89,0.0001,4+4+4,HC > Surv > NonSurv
+Wilcoxon HC vs Non-survivor (HDAC9),W=16,0.030,4 vs 4,HC > NonSurv
+Wilcoxon Survivor vs Non-survivor (HDAC9),W=16,0.030,4 vs 4,Surv > NonSurv
+Wilcoxon HC vs Survivor (HDAC9),W=14,0.112,4 vs 4,HC > Surv (NS)
+Wilcoxon HC vs Non-survivor (LDHA),W=16,0.030,4 vs 4,NonSurv > HC
+Wilcoxon Survivor vs Non-survivor (LDHA),W=15,0.061,4 vs 4,Surv ≈ NonSurv (NS)

@@ -1,0 +1,2 @@
+Gene,HR_95CI,C-index,p_value,Validation_Status,Notes
+RAB20,2.34 (1.42-3.85),0.66,<0.001,Not replicated in GSE26440,Moved from main Table 2; requires further validation

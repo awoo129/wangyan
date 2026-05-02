@@ -1,0 +1,15 @@
+Model,Cohort,Population,N,Events,C_index,HR,HR_lower,HR_upper,p_value,Log_rank_p
+HDAC9 (continuous),GSE66099 (Training),Pediatric,131,22,0.672,0.659,0.479,0.907,0.011,
+HDAC9 (binary),GSE66099 (Training),Pediatric,131,22,,0.471,0.273,0.812,,0.006
+LARS (continuous),GSE66099 (Training),Pediatric,131,22,0.774,,,,,
+LARS (binary),GSE66099 (Training),Pediatric,131,22,0.721,0.136,0.041,0.451,0.00017,
+HDAC9 (continuous),GSE26440 (Pediatric Validation),Pediatric,98,17,0.604,0.366,0.044,3.027,0.351,
+HDAC9 (binary),GSE26440 (Pediatric Validation),Pediatric,98,17,,,,0.017,
+LARS (continuous),GSE26440 (Pediatric Validation),Pediatric,98,17,0.776,5.591,1.965,15.912,0.00126,
+LARS (binary),GSE26440 (Pediatric Validation),Pediatric,98,17,0.731,,,0.00056,
+HDAC9 (continuous),GSE65682 (Adult Validation),Adult,479,114,0.457,0.686,0.447,1.050,0.083,
+HDAC9 (binary),GSE65682 (Adult Validation),Adult,479,114,,0.469,,,
+LARS (continuous),GSE65682 (Adult Validation),Adult,479,114,0.538,1.315,0.876,1.974,0.187,
+LARS (binary),GSE65682 (Adult Validation),Adult,479,114,0.544,,,0.535,
+HDAC9 (pooled FE meta - 3 cohorts),GSE66099+GSE26440+GSE65682,Mixed,708,153,,0.663,0.514,0.854,0.00148,
+HDAC9 (pooled FE meta - 2 pediatric cohorts),GSE66099+GSE26440,Pediatric,229,39,,0.650,0.474,0.892,0.008,
