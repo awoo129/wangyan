@@ -1,0 +1,82 @@
+==============================================================
+Session Info - Pediatric Sepsis Immunoparalysis Study
+Generated: 2026-05-03
+==============================================================
+
+=================== Python Environment ===================
+
+Python version: 3.13.13 (main, Apr  8 2026, 09:49:30) [GCC 11.4.0]
+Platform: Linux-5.15.120.byteatom-ck.13-x86_64-with-glibc2.35
+OS: Ubuntu 22.04
+
+Key Python packages used in this study:
+  numpy==2.4.4
+  pandas==3.0.2
+  scipy==1.17.1
+  scikit-learn==1.8.0
+  matplotlib==3.10.8
+  seaborn==0.13.2
+  plotly==6.7.0
+  statsmodels (via scipy)
+  lifelines (survival analysis)
+  openpyxl==3.1.5
+
+=================== R Environment ===================
+
+R scripts in this project use the following packages:
+
+  - GEOquery          # GEO data download and parsing
+  - Biobase           # ExpressionSet handling
+  - AnnotationDbi     # Annotation mapping
+  - SummarizedExperiment  # Data container
+  - limma             # Differential expression analysis (microarray)
+  - edgeR             # Differential expression analysis (RNA-Seq)
+  - DESeq2            # RNA-Seq normalization & DEG
+  - sva               # Batch correction (ComBat)
+  - caret             # Machine learning framework
+  - glmnet            # Lasso/ElasticNet regression
+  - pROC              # ROC curve analysis
+  - survival          # Survival analysis
+  - survminer         # Survival visualization
+  - rms               # Regression modeling strategies
+  - clusterProfiler   # Functional enrichment analysis
+  - org.Hs.eg.db      # Human gene annotation
+  - enrichplot        # Enrichment visualization
+  - ggplot2           # Data visualization
+  - ggpubr            # Publication-ready plots
+  - pheatmap          # Heatmaps
+  - factoextra        # PCA visualization
+  - ggdendro          # Dendrograms
+  - reshape2          # Data reshaping
+  - tidyr             # Data tidying
+  - dplyr             # Data manipulation
+  - stringr           # String processing
+  - matrixStats       # Row/column statistics
+  - Seurat            # Single-cell analysis (if applicable)
+
+Note: R sessionInfo() was not available in the execution environment.
+      The above list is derived from library() calls in project scripts.
+
+=================== Analysis Pipeline ===================
+
+1. Data acquisition: GEO (GSE26378, GSE26440, GSE63042, GSE65682)
+2. Preprocessing: RMA normalization (oligo), log2 transformation
+3. Batch correction: ComBat (sva package)
+4. Differential expression: limma (microarray), DESeq2/edgeR (RNA-Seq)
+5. Feature selection: LASSO logistic regression (glmnet)
+6. IPS scoring: Weighted linear combination of 5 MHC II genes
+7. Model evaluation: ROC/AUC (pROC), bootstrap validation
+8. External validation: GAinS cohort (ArrayExpress E-MTAB-4451)
+9. Visualization: ggplot2, pheatmap, plotly
+
+=================== Data Sources ===================
+
+| Dataset   | Platform   | Samples | Type       | Role              |
+|-----------|------------|---------|------------|-------------------|
+| GSE26378  | GPL570     | 103     | Microarray | Training          |
+| GSE26440  | GPL570     | 130     | Microarray | Validation        |
+| GSE63042  | RNA-Seq    | 117     | RNA-Seq    | External validate |
+| GSE65682  | GPL13667   | 479     | Microarray | Mars subtyping    |
+| GAinS     | ArrayExpress| 265    | Microarray | External validate |
+
+==============================================================
