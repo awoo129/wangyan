@@ -1,0 +1,3 @@
+Dataset,Cohort,Sample_Size,SRS1_N,SRS2_N,AUC_SRS1,AUC_95CI,Sensitivity,Specificity,Platform
+GSE65682 (Internal Validation),Adult Sepsis,306,--,--,0.696,0.64-0.75,--,--,Affymetrix
+GAinS (External Validation),Adult Sepsis (CAP),106,37,69,0.5495,--,0.0000,1.0000,Illumina

@@ -1,0 +1,19 @@
+Metric,Value
+Sample Size (Total),106
+Sample Size (SRS1),37
+Sample Size (SRS2),69
+AUC,0.5495
+IPS Threshold,0.3167
+Sensitivity (at 0.3167),0.0000
+Specificity (at 0.3167),1.0000
+PPV (at 0.3167),0.0000
+NPV (at 0.3167),0.6509
+IPS Mean (SRS1),-2.8404
+IPS Mean (SRS2),-2.9829
+IPS Median (SRS1),-2.8292
+IPS Median (SRS2),-2.9791
+p-value (Mann-Whitney SRS1 vs SRS2),4.0366e-01
+28-day Mortality (IPS High),nan%
+28-day Mortality (IPS Low),49.1%
+Deceased (n),52
+Survivors (n),54

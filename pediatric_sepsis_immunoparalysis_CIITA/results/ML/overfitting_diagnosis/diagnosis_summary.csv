@@ -1,0 +1,16 @@
+metric,value
+train_auc,0.91869918699187
+val_auc,0.9674744897959183
+auc_gap,0.04877530280404829
+train_sensitivity,0.926829268292683
+train_specificity,0.5714285714285714
+val_sensitivity,1.0
+val_specificity,0.15625
+cohens_d_train,1.9160071899618834
+cohens_d_val,1.7919538231344987
+train_extreme_pct,52.42718446601942
+val_extreme_pct,71.53846153846153
+cv_auc_mean,0.9119696969696969
+cv_auc_std,0.03501191366608473
+optimal_threshold,0.8874555630475297
+best_regularization_C,2.0

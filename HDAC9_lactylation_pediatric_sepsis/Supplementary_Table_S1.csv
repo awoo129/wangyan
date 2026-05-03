@@ -1,7 +1,0 @@
-Gene,Pathway,NES,FDR_at_0.25,FDR_at_0.05,Significant_at_FDR0.05
-Cluster 2 up,Glycolysis/Gluconeogenesis,2.3,0.002,0.002,Yes
-Cluster 2 up,HIF-1 Signaling,2.1,0.008,0.008,Yes
-Cluster 2 up,Pyruvate Metabolism,1.9,0.015,0.015,Yes
-Cluster 1 up,T-cell Receptor Signaling,-2.4,<0.001,<0.001,Yes
-Cluster 1 up,NK Cell Mediated Cytotoxicity,-2.1,0.003,0.003,Yes
-Cluster 1 up,Antigen Processing and Presentation,-1.8,0.022,0.022,Yes

@@ -1,0 +1,115 @@
+SampleID,Survival28d,SRS,Sex,Age
+CAP0293,survivor,1.0,male,31
+CAP0367,non survivor,1.0,male,34
+CAP0272,survivor,2.0,female,35
+CAP0375,non survivor,2.0,male,35
+CAP0273,non survivor,2.0,male,38
+CAP0281,survivor,2.0,male,39
+CAP0285,non survivor,1.0,male,40
+CAP0287,non survivor,1.0,male,41
+CAP0301,survivor,2.0,male,41
+CAP0295,survivor,2.0,male,42
+CAP0300,non survivor,2.0,female,44
+CAP0309,survivor,2.0,male,44
+CAP0313,survivor,2.0,male,47
+CAP0317,survivor,1.0,female,47
+CAP0210,non survivor,NA,female,49
+CAP0307,non survivor,1.0,male,49
+CAP0320,non survivor,1.0,male,52
+CAP0332,survivor,2.0,male,52
+CAP0340,survivor,2.0,male,54
+CAP0326,non survivor,1.0,female,57
+CAP0333,non survivor,1.0,male,57
+CAP0334,survivor,1.0,female,57
+CAP0342,non survivor,2.0,male,58
+CAP0349,survivor,2.0,male,61
+CAP0348,non survivor,2.0,male,62
+CAP0361,non survivor,2.0,male,63
+CAP0366,survivor,2.0,male,63
+CAP0371,non survivor,2.0,male,63
+CAP0379,survivor,1.0,female,63
+CAP0275,survivor,2.0,male,65
+CAP0372,non survivor,1.0,male,65
+CAP0283,survivor,2.0,male,66
+CAP0305,non survivor,2.0,female,66
+CAP0358,survivor,2.0,female,66
+CAP0271,non survivor,1.0,male,67
+CAP0284,non survivor,2.0,male,67
+CAP0292,survivor,1.0,male,67
+CAP0314,survivor,2.0,male,67
+CAP0289,non survivor,2.0,male,68
+CAP0296,non survivor,1.0,female,68
+CAP0299,survivor,2.0,male,68
+CAP0306,survivor,2.0,male,68
+CAP0312,non survivor,1.0,female,69
+CAP0319,survivor,2.0,male,69
+CAP0321,non survivor,2.0,male,70
+CAP0322,survivor,2.0,male,70
+CAP0325,survivor,2.0,male,70
+CAP0330,non survivor,1.0,male,71
+CAP0335,survivor,2.0,male,71
+CAP0378,survivor,2.0,male,71
+CAP0338,non survivor,NA,male,72
+CAP0341,non survivor,1.0,female,72
+CAP0343,survivor,2.0,male,72
+CAP0352,survivor,NA,male,72
+CAP0357,non survivor,1.0,female,73
+CAP0362,survivor,2.0,female,73
+CAP0374,non survivor,2.0,male,73
+CAP0365,non survivor,2.0,male,74
+CAP0368,survivor,2.0,male,74
+CAP0380,survivor,1.0,female,74
+CAP0274,non survivor,2.0,male,75
+CAP0276,survivor,1.0,male,75
+CAP0280,non survivor,1.0,male,75
+CAP0294,non survivor,2.0,female,75
+CAP0298,survivor,1.0,female,75
+CAP0377,non survivor,2.0,male,75
+CAP0286,survivor,1.0,male,76
+CAP0297,non survivor,2.0,male,76
+CAP0303,survivor,1.0,male,76
+CAP0304,non survivor,2.0,female,76
+CAP0315,non survivor,2.0,female,76
+CAP0288,survivor,2.0,male,77
+CAP0310,survivor,2.0,female,77
+CAP0318,non survivor,2.0,male,77
+CAP0327,non survivor,2.0,male,77
+CAP0329,survivor,2.0,male,77
+CAP0336,survivor,2.0,male,77
+CAP0249,non survivor,NA,male,78
+CAP0345,survivor,2.0,male,78
+CAP0373,survivor,NA,female,78
+CAP0344,non survivor,2.0,male,79
+CAP0350,survivor,2.0,male,79
+CAP0351,non survivor,1.0,male,79
+CAP0363,survivor,1.0,male,79
+CAP0278,non survivor,2.0,male,80
+CAP0279,survivor,2.0,female,80
+CAP0356,non survivor,NA,male,80
+CAP0359,non survivor,1.0,male,80
+CAP0381,non survivor,1.0,male,80
+CAP0282,non survivor,1.0,male,81
+CAP0290,survivor,1.0,male,81
+CAP0353,survivor,2.0,female,81
+CAP0063,survivor,2.0,male,82
+CAP0291,non survivor,2.0,male,82
+CAP0302,non survivor,1.0,male,82
+CAP0324,survivor,2.0,female,82
+CAP0308,non survivor,1.0,male,83
+CAP0311,survivor,2.0,male,83
+CAP0316,non survivor,1.0,female,83
+CAP0323,non survivor,1.0,female,83
+CAP0328,survivor,1.0,male,83
+CAP0339,survivor,NA,male,83
+CAP0331,non survivor,1.0,male,84
+CAP0337,non survivor,2.0,male,84
+CAP0346,non survivor,NA,female,84
+CAP0347,survivor,2.0,male,84
+CAP0354,non survivor,2.0,male,84
+CAP0355,survivor,2.0,female,84
+CAP0364,survivor,2.0,male,84
+CAP0360,non survivor,2.0,male,85
+CAP0370,survivor,2.0,male,86
+CAP0277,survivor,2.0,male,90
+CAP0369,non survivor,2.0,female,91
+CAP0376,survivor,2.0,female,91

@@ -1,0 +1,9 @@
+Metric,GSE65682_Validation,External_Validation
+AUC,0.696,0.500
+Sensitivity,16.1%,0.0%
+Specificity,96.6%,100.0%
+PPV,-,0.0%
+NPV,-,81.4%
+Sample Size,192,231
+Mortality_High_IPS,-,N/A
+Mortality_Low_IPS,-,18.6%
