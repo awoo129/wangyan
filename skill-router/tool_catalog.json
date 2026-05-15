@@ -1,7 +1,36 @@
 {
   "_description": "L0工具能力注册表 — skill全灭后的保底层。只用当L1技能路由返回'拒选'时才查这里。",
   "_rule": "每个任务类型下按优先级排列。工具是保底，不是首选——superpowers原则：能用skill不用工具。",
-  "_version": "1.0.0",
+  "_version": "1.1.0",
+
+  "_fallback_chain": {
+    "description": "降级链路：L1 skill路由 → L0.5 AI保底 → L0 传统工具",
+    "order": ["ai_fallback", "literature_search", "literature_fetch", "web_search_general", "web_browse", "email_send", "chart_generate", "file_download", "pdf_process", "r_analysis", "gwas_data", "zotero_manage"]
+  },
+
+  "ai_fallback": {
+    "description": "AI智能保底 — skill路由拒选后，先试免费AI模型兜底，不行再走传统工具",
+    "tools": [
+      {
+        "name": "9Router Free AI",
+        "priority": 1,
+        "invocation": "curl -s http://localhost:20128/v1/chat/completions -H 'Content-Type: application/json' -d '{\"model\":\"kr/claude-sonnet-4.5\",\"messages\":[{\"role\":\"user\",\"content\":\"QUERY\"}]}' | jq -r '.choices[0].message.content'",
+        "strength": "免费AI模型兜底，40+提供商自动容灾，RTK省20-40% token",
+        "limitation": "需本地运行9Router (npm install -g 9router; 9router)",
+        "free": true,
+        "setup": "npm install -g 9router && 9router  # 启动后端口 :20128"
+      },
+      {
+        "name": "Direct LLM Fallback",
+        "priority": 2,
+        "invocation": "通过OpenClaw默认模型直接回复（无工具调用）",
+        "strength": "零配置，永远可用",
+        "limitation": "消耗API额度，无外部数据",
+        "free": false,
+        "notes": "9Router不可用时的最终AI保底"
+      }
+    ]
+  },
 
   "literature_search": {
     "description": "学术文献检索",
